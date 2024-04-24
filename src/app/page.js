@@ -12,9 +12,9 @@ import { SpotlightDemo } from "./components/Spotlight/SpotlightDemo";
 export default function Home() {
     return (
         <div className="py-4">
-            <TracingBeamDemo>
+            {/* <TracingBeamDemo> */}
                 <div className="mb-2">
-                    <BackgroundBoxesDemo />
+                    {/* <BackgroundBoxesDemo /> */}
                 </div>
 
                 <div className="mb-2">
@@ -30,20 +30,20 @@ export default function Home() {
                 </div>
 
                 <div className="mb-2 flex justify-items-stretch flex-wrap justify-between">
+                    {/* <MeteorsDemo />
                     <MeteorsDemo />
                     <MeteorsDemo />
                     <MeteorsDemo />
                     <MeteorsDemo />
                     <MeteorsDemo />
                     <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
+                    <MeteorsDemo /> */}
                 </div>
 
                 <div className="mb-2">
                     <SpotlightDemo />
                 </div>
-            </TracingBeamDemo>
+            {/* </TracingBeamDemo> */}
         </div>
     );
 }
