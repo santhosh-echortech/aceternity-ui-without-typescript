@@ -6,16 +6,16 @@ import React from "react";
 import { MacbookScrollDemo } from "./components/MacbookScroll/MacbookScrollDemo";
 import { BentoGridCards } from "./components/BentoGrid/BentoGridDemo";
 import { LampDemo } from "./components/Lamp/LampDemo";
-// import { MeteorsDemo } from "./components/Meteors/MeteorsDemo";
+import { MeteorsDemo } from "./components/Meteors/MeteorsDemo";
 import { SpotlightDemo } from "./components/Spotlight/SpotlightDemo";
 
 export default function Home() {
     return (
         <div className="py-4">
             {/* <TracingBeamDemo> */}
-                <div className="mb-2">
-                    {/* <BackgroundBoxesDemo /> */}
-                </div>
+                {/* <div className="mb-2">
+                    <BackgroundBoxesDemo />
+                </div> */}
 
                 <div className="mb-2">
                     <MacbookScrollDemo />
@@ -29,15 +29,8 @@ export default function Home() {
                     <LampDemo />
                 </div>
 
-                <div className="mb-2 flex justify-items-stretch flex-wrap justify-between">
-                    {/* <MeteorsDemo />
+                <div className="mb-2 p-2 flex justify-center">
                     <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo />
-                    <MeteorsDemo /> */}
                 </div>
                 <div className="mb-2">
                     <SpotlightDemo />
