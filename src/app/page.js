@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 
-import { TracingBeamDemo } from "./components/TracingBeam/TracingBeamDemo";
-import { BackgroundBoxesDemo } from "./components/BackgroundBoxes/BackgroundBoxesDemo";
+// import { TracingBeamDemo } from "./components/TracingBeam/TracingBeamDemo";
+// import { BackgroundBoxesDemo } from "./components/BackgroundBoxes/BackgroundBoxesDemo";
 import { MacbookScrollDemo } from "./components/MacbookScroll/MacbookScrollDemo";
 import { BentoGridCards } from "./components/BentoGrid/BentoGridDemo";
 import { LampDemo } from "./components/Lamp/LampDemo";
-import { MeteorsDemo } from "./components/Meteors/MeteorsDemo";
+// import { MeteorsDemo } from "./components/Meteors/MeteorsDemo";
 import { SpotlightDemo } from "./components/Spotlight/SpotlightDemo";
 
 export default function Home() {
@@ -39,7 +39,6 @@ export default function Home() {
                     <MeteorsDemo />
                     <MeteorsDemo /> */}
                 </div>
-
                 <div className="mb-2">
                     <SpotlightDemo />
                 </div>
